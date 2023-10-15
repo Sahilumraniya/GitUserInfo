@@ -27,7 +27,7 @@ The application uses **XMLHttpRequest** to fetch data from the GitHub API and di
 
 ## Screenshots
 
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot.png)
 
 ## Development
 
