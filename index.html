@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>API</title>
+  </head>
+  <body class="w-full h-[100vh] flex items-center justify-center flex-col">
+    <img
+      class="absolute top-0 z-0 w-full opacity-70 h-full object-cover"
+      src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/05/best-git-gui-clients.jpg"
+      alt="bg"
+    />
+    <form
+      id="form"
+      class="bg-slate-800 z-10 bg-opacity-90 md:w-[40vw] w-[80vw] text-white rounded-lg"
+    >
+      <h1 class="text-center my-2 md:my-5 md:text-4xl text-sm">GITHUB API</h1>
+      <div class="md:mx-10 mx-2 flex items-center justify-center flex-wrap flex-col overflow-hidden">
+        <div class="">
+          <label class="md:text-2xl text-sm" for="username">User Name : </label>
+          <input
+            type="text"
+            class="text-black focus:outline-none md:py-2 md:px-3 p-1 md:mx-3 mx-1 rounded md:text-xl text-sm w-fit"
+            id="username"
+            placeholder="Enter your user name"
+          />
+        </div>
+        <p class="bg-white text-red-600 px-2 rounded-lg" id="error">
+          User not found
+        </p>
+        <div class="md:my-5 my-2">
+          <input
+            class="cursor-pointer border-fuchsia-800 border-2 hover:scale-110 hover:bg-black md:p-2 p-1 text-sm rounded-lg duration-100"
+            id="submit"
+            type="submit"
+            value="SUBMIT"
+          />
+        </div>
+      </div>
+    </form>
+    <div id="show" class="my-10 w-full flex z-10 justify-center">
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
